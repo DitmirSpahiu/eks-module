@@ -48,7 +48,7 @@ This module will create the following resources:
 ```
 module "eks"  {
 
-  source = "git@code.rbi.tech:IALASPD/eks.git"
+  source = "git@github.com:DitmirSpahiu/eks-module.git"
 
   prefixname = "MyApp"
 
@@ -64,7 +64,7 @@ module "eks"  {
 ```
 module "eks" {
 
-  source = "git@code.rbi.tech:IALASPD/eks.git"
+  source = "git@github.com:DitmirSpahiu/eks-module.git"
 
   cluster_version="1.24"
 
